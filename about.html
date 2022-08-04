@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Document</title>
+    <title>About Barbara Morales</title>
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -34,12 +34,46 @@
     ></script>
     <link rel="stylesheet" href="portfolio.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Barbara is a front-end developer based in the US. Find out more about her here."
+    />
   </head>
   <body>
-    <div class="about-section container">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Barbara Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Barbara Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="index.html" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="about.html" title="About Barbara"> About</a>
+          </li>
+          <li>
+            <a href="work.html" title="Barbara's work"> Work</a>
+          </li>
+          <li>
+            <a href="contact.html" title="Barbara"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
-          <div class="about-section-content">
+          <div class="content">
             <h1 class="mb-4">Hello I am Barbara Morales</h1>
             <h2 class="mb-4">Frontend Developer, based in the US.</h2>
             <p class="mb-5">
@@ -48,13 +82,30 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a href="" class="btn btn-branding" title="My Projects"
+              >See my projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/barbara.png" alt="" class="img-fluid" />
+          <img
+            src="images/barbara.png"
+            alt="Barbara Morales"
+            class="img-fluid"
+          />
         </div>
       </div>
     </div>
   </body>
+  <footer>
+    <p class="text-center mt-5">
+      ✌️ This website was coded by Barbara Morales, and is
+      <a
+        href="https://github.com/barbaramm11/responsive-portfolio"
+        target="_blank"
+      >
+        open-sourced
+      </a>
+    </p>
+  </footer>
 </html>
